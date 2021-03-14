@@ -1,4 +1,9 @@
-# bunjang_mock_aos_zoe
+# bunjang_clone
+
+## 기술 스택
+- Android Studio
+- Kotiln(MVP패턴 적용), REST API사용, Retrofit+Okhttp
+- Node.js
 
 ## 스플래시
 
