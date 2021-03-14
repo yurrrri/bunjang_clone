@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/myshop_toolbar_point"
+        android:enabled="true"
+        android:icon="@drawable/ic_myshop_toolbar_point"
+        android:title="@null"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/myshop_toolbar_alarm"
+        android:enabled="true"
+        android:icon="@drawable/ic_myshop_toolbar_alarm"
+        android:title="@null"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/myshop_toolbar_setting"
+        android:checkable="true"
+        android:enabled="true"
+        android:icon="@drawable/ic_myshop_toolbarsetting"
+        android:title="@null"
+        android:visible="true"
+        app:showAsAction="always" />
+
+</menu>

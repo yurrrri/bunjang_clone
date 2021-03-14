@@ -1,0 +1,26 @@
+<resources>
+    <!-- Main -->
+    <string name="main_bottomnavi_home_title">홈</string>
+    <string name="main_bottomnavi_store_title">팔로잉</string>
+    <string name="main_bottomnavi_sell_title">상품등록</string>
+    <string name="main_bottomnavi_talk_title">번개톡</string>
+    <string name="main_bottomnavi_mypage_title">마이샵</string>
+    <string name="app_name">번개장터</string>
+    <string name="title_activity_my_page_gender_setting">MyPageGenderSettingActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_womancloth">여성의류</string>
+    <string name="home_acc">패션잡화</string>
+    <string name="home_digital">디지털/가전</string>
+    <string name="home_sise">휴대폰시세</string>
+    <string name="home_allcat">전체보기</string>
+    <string name="title_activity_my_page_jjim">MyPageJjimActivity</string>
+</resources>

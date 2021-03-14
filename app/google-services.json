@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1074861570965",
+    "project_id": "bunjang-mok-aos",
+    "storage_bucket": "bunjang-mok-aos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074861570965:android:2b211c13a9e75844d7149c",
+        "android_client_info": {
+          "package_name": "leeyuri.mobile.bunjang_mok_aos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074861570965-bcrf885k79guuvdta5pon60059ngvssr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-bYE8qntTOWEZZ2aGVQQXFNCAHtsJvvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074861570965-bcrf885k79guuvdta5pon60059ngvssr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

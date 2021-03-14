@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="약관동의"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/login_btn_exit2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/login_btn_exit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/login_btn_exit" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/login_agree_layout_allagree"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="#F1F0F6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19">
+
+        <CheckBox
+            android:id="@+id/login_chb_all"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/login_agree_all_check"
+            android:button="@null"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="14dp"
+            android:text="전체 동의"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/login_chb_all"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <CheckBox
+        android:id="@+id/login_chb_first"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/login_check_agree"
+        android:button="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_agree_layout_allagree" />
+
+    <TextView
+        android:id="@+id/login_agree_tv_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="18dp"
+        android:text="번개장터 필수 항목 모두 동의"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/login_chb_first"
+        app:layout_constraintTop_toBottomOf="@+id/login_agree_layout_allagree" />
+
+    <CheckBox
+        android:id="@+id/login_chb_second"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/login_check_agree"
+        android:button="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_chb_first" />
+
+    <TextView
+        android:id="@+id/login_agree_tv_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="휴대폰 본인확인서비스"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/login_chb_second"
+        app:layout_constraintTop_toBottomOf="@+id/login_agree_tv_first" />
+
+    <CheckBox
+        android:id="@+id/login_chb_third"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/login_check_agree"
+        android:button="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_chb_second" />
+
+    <TextView
+        android:id="@+id/login_agree_tv_third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="개인정보 수집 이용 동의(선택)"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/login_chb_third"
+        app:layout_constraintTop_toBottomOf="@+id/login_agree_tv_second" />
+
+    <CheckBox
+        android:id="@+id/login_chb_fourth"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/login_check_agree"
+        android:button="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_chb_third" />
+
+    <TextView
+        android:id="@+id/login_agree_tv_fourth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="위치정보 이용약관 동의(선택)"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/login_chb_fourth"
+        app:layout_constraintTop_toBottomOf="@+id/login_agree_tv_third" />
+
+    <CheckBox
+        android:id="@+id/login_chb_fifth"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/login_check_agree"
+        android:button="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_chb_fourth" />
+
+    <TextView
+        android:id="@+id/login_agree_tv_fifth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="마케팅 수신 동의(선택)"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/login_chb_fifth"
+        app:layout_constraintTop_toBottomOf="@+id/login_agree_tv_fourth" />
+
+    <CheckBox
+        android:id="@+id/login_chb_sixth"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/login_check_agree"
+        android:button="@null"
+        app:layout_constraintBottom_toTopOf="@+id/login_info_btn_next3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_chb_fifth" />
+
+    <TextView
+        android:id="@+id/login_agree_tv_sixth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="개인정보 광고활용 동의(선택)"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/login_info_btn_next3"
+        app:layout_constraintStart_toEndOf="@+id/login_chb_fifth"
+        app:layout_constraintTop_toBottomOf="@+id/login_agree_tv_fifth" />
+
+    <Button
+        android:id="@+id/login_info_btn_next3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="다음"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

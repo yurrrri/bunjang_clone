@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_main_btmnavitem_home"
+        android:icon="@drawable/ic_main_bottomnavi_home"
+        android:enabled="true"
+        android:checked="true"
+        android:title="@string/main_bottomnavi_home_title" />
+    <item
+        android:id="@+id/menu_main_btmnavitem_store"
+        android:icon="@drawable/ic_main_bottomnavi_store"
+        android:enabled="true"
+        android:title="@string/main_bottomnavi_store_title" />
+    <item
+        android:id="@+id/menu_main_btmnavitem_sell"
+        android:icon="@drawable/ic_main_bottomnavi_sell"
+        android:enabled="true"
+        android:title="@string/main_bottomnavi_sell_title" />
+    <item
+        android:id="@+id/menu_main_btmnavitem_talk"
+        android:icon="@drawable/ic_main_bottomnavi_talk"
+        android:enabled="true"
+        android:title="@string/main_bottomnavi_talk_title" />
+    <item
+        android:id="@+id/menu_main_btmnavitem_mypage"
+        android:icon="@drawable/ic_main_bottomnavi_mypage"
+        android:enabled="true"
+        android:title="@string/main_bottomnavi_mypage_title" />
+</menu>
