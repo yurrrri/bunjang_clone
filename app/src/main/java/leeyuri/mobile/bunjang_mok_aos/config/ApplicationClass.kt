@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit
 // 앱이 실행될때 1번만 실행이 됩니다.
 // 전역변수, 앱이 실행될 동안 한번만 유지되면 되는 객체들을 생성하는 코드 작성
 class ApplicationClass : Application() {
-    val API_URL = "https://dev.h3yon-bunjang.shop/"
+    val API_URL = "https://h3yon-bunjang.shop/"
 
     // 코틀린의 전역변수 문법
     companion object {
